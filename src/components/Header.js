@@ -1,10 +1,14 @@
 import React from 'react'
+import logo from './images/logo.png'
+
 
 const Header = () => {
   return (
-    <div>
-     <img src="https://banner2.cleanpng.com/20180802/uew/kisspng-movie-projector-photographic-film-computer-icons-c-icons-for-projektor-icons-www-iconswiz-com-5b636a0add64a9.8366878315332418669068.jpg" alt="" />
+ 
+    <div className=' absolute px-8 py-2  bg-gradient-to-b from-black z-10'>
+     <img className='w-16 h-16' src={logo} alt="logo" />
     </div>
+    
   )
 }
 
