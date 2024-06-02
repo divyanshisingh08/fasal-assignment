@@ -1,10 +1,8 @@
-import Header from "./components/Header";
-import MainContainer from "./components/MainContainer";
+import Body from "./components/Body";
 function App() {
   return (
     <div className="text-3xl ">
-    <Header/>
-    <MainContainer/>
+   <Body/>
     
     </div>
   );
