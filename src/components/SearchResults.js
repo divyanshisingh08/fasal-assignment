@@ -1,11 +1,14 @@
-import React from 'react'
+import React from 'react';
 
-const SearchResults = () => {
+
+const SearchResult = () => {
+
+
   return (
-    <div>
-      Searched Movie
+    <div className="container mx-auto p-4">
+   Search results
     </div>
-  )
-}
+  );
+};
 
-export default SearchResults
+export default SearchResult;
